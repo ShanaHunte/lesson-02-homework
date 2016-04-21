@@ -4,6 +4,7 @@ def full_name(first_name, last_name, title)
   # Example comment line
 
   name = nil
+  
 
   if title && first_name && last_name
     name = title + " " + first_name + " " + last_name
